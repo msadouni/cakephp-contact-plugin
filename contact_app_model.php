@@ -1,5 +1,4 @@
 <?php
-class ContactAppModel extends AppModel
-{
-    
+class ContactAppModel extends AppModel {
 }
+?>
