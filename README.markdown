@@ -14,7 +14,7 @@ In your `plugins` folder type
 ### Submodule
 In your root folder type
 
-    git submodule add git://github.com/msadouni/cakephp-meioupload-plugin.git plugins/contact`
+    git submodule add git://github.com/msadouni/cakephp-contact-plugin.git plugins/contact`
     git submodule init
     git submodule update
 
