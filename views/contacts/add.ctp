@@ -1,16 +1,17 @@
+<?php echo $this->element('contact', array('plugin' => null)); ?>
 <?php $this->addScript($html->css('/contact/css/contact.css')) ?>
-<h1><?php echo $this->pageTitle = __d('contact', 'Contact us', true) ?></h1>
+<h2><?php echo $this->pageTitle = __d('contact', 'Contact', true) ?></h2>
 <?php
 echo $form->create('Contact');
 echo $form->input('name', array(
-    'label' => 'Nom',
+    'label' => 'Name',
     'error' => array(
         'notEmpty' => __d('contact', 'Please specify your name', true))));
-echo $form->input('address', array('label' => 'Adresse'));
-echo $form->input('zip', array('label' => 'Code postal'));
-echo $form->input('city', array('label' => 'Ville'));
-echo $form->input('country', array('label' => 'Pays'));
-echo $form->input('phone', array('label' => 'Téléphone'));
+echo $form->input('address', array('label' => 'Adress'));
+echo $form->input('zip', array('label' => ' Zip Code'));
+echo $form->input('city', array('label' => 'City'));
+echo $form->input('country', array('label' => 'State'));
+echo $form->input('phone', array('label' => 'Telephone'));
 echo $form->input('email', array(
     'label' => 'Email',
     'error' => array(
