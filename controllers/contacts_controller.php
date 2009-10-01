@@ -5,7 +5,10 @@ class ContactsController extends ContactAppController {
 
 	function beforeFilter() {
 		parent::beforeFilter();
-		$this->Auth->allowedActions = array('*');
+		if (isset($this->Auth))
+		{
+			$this->Auth->allowedActions = array('*');
+		}
 	}
 
 	/**
