@@ -1,0 +1,76 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: contacts plugin\n"
+"POT-Creation-Date: 2011-02-02 16:02+0100\n"
+"PO-Revision-Date: 2011-02-03 12:40+0100\n"
+"Last-Translator: Stefano Manfredini <info@stefanomanfredini.info>\n"
+"Language-Team: ita\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Italian\n"
+"X-Poedit-Country: Italy\n"
+
+#: \plugins\contact\views\contacts\add.ctp:3
+msgid "Contact"
+msgstr "Contatti"
+
+#: \plugins\contact\views\contacts\add.ctp:9
+#: \views\plugins\contacts\add.ctp:31
+msgid "Please specify your name"
+msgstr "Specificare il nome"
+
+#: \plugins\contact\views\contacts\add.ctp:18
+#: \views\plugins\contacts\add.ctp:40
+msgid "Please specify your email"
+msgstr "Specificare l'indirizzo email"
+
+#: \plugins\contact\views\contacts\add.ctp:22
+#: \views\plugins\contacts\add.ctp:45
+msgid "Please specify your message"
+msgstr "Inserire un messaggio"
+
+#: \plugins\contact\views\contacts\add.ctp:23
+#: \views\plugins\contacts\add.ctp:46
+msgid "Submit"
+msgstr "Invia"
+
+#: \plugins\contact\views\elements\email\text\add.ctp:1
+msgid "New Contact"
+msgstr "Nuovo contatto"
+
+#: \plugins\contact\views\elements\email\text\add.ctp:3
+msgid "Name"
+msgstr "Nome (obbligatorio)"
+
+#: \plugins\contact\views\elements\email\text\add.ctp:5
+msgid "Address"
+msgstr "Indirizzo"
+
+#: \plugins\contact\views\elements\email\text\add.ctp:7
+msgid "Zip"
+msgstr "cap"
+
+#: \plugins\contact\views\elements\email\text\add.ctp:9
+msgid "City"
+msgstr "Città"
+
+#: \plugins\contact\views\elements\email\text\add.ctp:11
+msgid "Country"
+msgstr "Stato"
+
+#: \plugins\contact\views\elements\email\text\add.ctp:13
+msgid "Phone"
+msgstr "Telefono"
+
+#: \plugins\contact\views\elements\email\text\add.ctp:15
+msgid "Email"
+msgstr "Email (obbligatorio)"
+
+#: \plugins\contact\views\elements\email\text\add.ctp:17
+msgid "Message"
+msgstr "Messaggio (obbligatorio)"
+
