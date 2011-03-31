@@ -40,7 +40,7 @@ Download the archive from github and extract it in `plugins/contact`
             'controller' => 'contacts',
             'action' => 'thanks'));
 
-- Basic views and css are provided. You can override them by creating custom views for the form and thanks pages in `views/plugins/contact/views/add.ctp` and `views/plugins/contact/views/thanks.ctp`. The thanks view is only suitable for development, you'll have to create your own for production use.
+- Basic views and css are provided. You can override them by creating custom views for the form and thanks pages in `views/plugins/contact/contacts/add.ctp` and `views/plugins/contact/contacts/thanks.ctp`. The thanks view is only suitable for development, you'll have to create your own for production use.
 
 # Translating
 The form view contains the string used by error messages so they can be extracted with `cake i18n` tool. Feel free to fork the code, translate it in your language and make a pull request or contact me so I can include it in the plugin.
