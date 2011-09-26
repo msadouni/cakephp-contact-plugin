@@ -1,6 +1,7 @@
 <?php echo $this->element('contact', array('plugin' => null)); ?>
 <?php $this->addScript($this->Html->css('/contact/css/contact.css')) ?>
-<h2><?php echo $this->pageTitle = __d('contact', 'Contact', true) ?></h2>
+<?php $this->set('title_for_layout', __d('contact', 'Contact', true)) ?>
+<h2><?php __d('contact', 'Contact') ?></h2>
 <?php
 echo $this->Form->create('Contact');
 echo $this->Form->input('name', array(
